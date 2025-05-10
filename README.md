@@ -14,12 +14,6 @@ ________________________________________
 📌 Prerequisites
 Make sure you have Python 3.7+ installed, along with the required libraries:
 pip install pandas scikit-learn
-📁 File Structure
-spam-email-classifier/
-│
-├── email (1).csv              # Dataset with 'Category' and 'Message' columns
-├── spam_classifier.py         # Main script with all logic
-└── README.md                  # Project documentation (this file)
 📝 Dataset Format
 Your email (1).csv should have at least two columns:
 Category	Message
