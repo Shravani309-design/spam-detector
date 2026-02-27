@@ -78,5 +78,5 @@ def predict_email(text):
     return "Spam" if pred == 1 else "Ham"
 
 # Test examples
-print(predict_email("You’ve won a $1000 gift card! Click now to claim!"))
-print(predict_email("Meeting rescheduled to 3 PM. Please confirm."))
+user_input = input("Enter email text: ")
+print(predict_email(user_input))
